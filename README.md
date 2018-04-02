@@ -161,7 +161,7 @@ For example to detect the faces in images of `data/demo`:
     - Take a look at and use `./experiments/scripts/plot_fddb.sh` for FDDB. 
 
 ### Notes
-- The results are reported using an NVIDIA P6000 GPU with 24GB GPU memory. Big images need 
+- The results are reported using two NVIDIA P6000 GPU with 24GB GPU memory. Big images need 
 a higher memory because of the sizes of the convolutional feature maps, therefore if you're facing memory
 issues try setting `cfg.TEST.MAX_SIZE` to a smaller number. 
 
