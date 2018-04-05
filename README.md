@@ -4,6 +4,8 @@ By Pouya Samangouei\*, Mahyar Najibi\*, Larry Davis, Rama Chellappa
 
 \* contributed equally.
 
+The paper can be found [here](https://arxiv.org/abs/1803.05258).
+
 This Python implementation is based on [Faster-RCNN](https://github.com/rbgirshick/py-faster-rcnn).
 
 #### License
@@ -11,8 +13,6 @@ This Python implementation is based on [Faster-RCNN](https://github.com/rbgirshi
 Face-MagNet is released under the Apache 2 License (refer to the LICENSE file for details).
 
 #### Citing Face-MagNet
-
-If you find Faster R-CNN useful in your research, please consider citing:
 
     @inproceedings{wacv18facemagnet,
         Author = {Pouya Samangouei and Mahyar Najibi and Larry Davis and Rama Chellappa},
@@ -161,7 +161,7 @@ For example to detect the faces in images of `data/demo`:
     - Take a look at and use `./experiments/scripts/plot_fddb.sh` for FDDB. 
 
 ### Notes
-- The results are reported using an NVIDIA P6000 GPU with 24GB GPU memory. Big images need 
+- The results are reported using two NVIDIA P6000 GPU with 24GB GPU memory. Big images need 
 a higher memory because of the sizes of the convolutional feature maps, therefore if you're facing memory
 issues try setting `cfg.TEST.MAX_SIZE` to a smaller number. 
 
