@@ -1,7 +1,3 @@
-[submodule "caffe-fast-rcnn"]
-	path = caffe-fast-rcnn
-	url = https://github.com/rbgirshick/caffe-fast-rcnn.git
-	branch = fast-rcnn
 [submodule "caffe-facemagnet"]
 	path = caffe-facemagnet
 	url = git@github.com:po0ya/caffe-facemagnet.git
