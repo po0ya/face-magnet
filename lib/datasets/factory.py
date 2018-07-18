@@ -1,6 +1,5 @@
 """Factory method for easily getting imdbs by name."""
 from datasets.wider import wider
-from datasets.csvdb import csvdb
 
 import numpy as np
 __sets = {}
