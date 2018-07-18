@@ -9,7 +9,6 @@ import utils.cython_bbox
 import cPickle
 import subprocess
 import uuid
-from voc_eval import voc_eval
 from fast_rcnn.config import cfg
 import csv
 from PIL import Image
@@ -70,9 +69,6 @@ class wider(imdb):
         self._classes = ['_bg', 'face']
 
     def _get_default_path(self):
-        """
-        Return the default path where PASCAL VOC is expected to be installed.
-        """
         return os.path.join(cfg.DATA_DIR, 'wider')
 
     def image_path_at(self, i):
